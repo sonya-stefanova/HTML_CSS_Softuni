@@ -33,10 +33,10 @@ th{
     padding: 6px;
 }
 
-tr{
-    border: 1px solid #ccc;
+td{
+    border: 2px solid #cccccccc;
     text-align: left;
-    padding: 6px;
+    padding: 12px;
 }
 
 tr:nth-child(odd){
@@ -44,11 +44,12 @@ tr:nth-child(odd){
 }
 
 blockquote{
-    border-left: 6px solid rgb(221,221,221);
+    border-left: 5px solid rgb(221,221,221);
     font-style: italic;
-    padding: 10px 30px;
+    padding: 15px 20px;
 }
 
 blockquote p:last-child{
     text-align: right;
+    font-style:oblique;
 }
