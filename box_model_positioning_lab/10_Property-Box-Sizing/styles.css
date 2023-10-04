@@ -1,0 +1,19 @@
+div {
+  width: 160px;
+  height: 80px;
+  padding: 20px;
+  border: 8px solid blue;
+  background: coral;
+}
+
+html{
+  box-sizing: initial
+}
+
+.content-box{
+  box-sizing: inherit;
+}
+
+.border-box{
+  box-sizing: border-box;
+}
