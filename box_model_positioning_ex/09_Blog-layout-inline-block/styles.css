@@ -1,0 +1,26 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+article{
+    margin: 15px 20px 15px 30px;
+    display: inline-block;
+    width: 65%;
+    line-height:1.5;
+}
+aside{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+}
+img{
+    width: 70%;
+    height:auto;
+    border-radius: 5px;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color:green;
+}

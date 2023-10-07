@@ -1,9 +1,13 @@
 html{
     font-family: Helvetica, sans-serif;
+    width: 900px;
+    height: auto;
+    margin: 2em auto;
 }
 
 nav, ul ,li{
     display: inline-block;
+    margin-left:-20px;
 }
 
 nav li a{
@@ -28,3 +32,13 @@ header h1{
     margin-right: 80px;
     margin-left: 10px;
 }
+
+p{
+    font-family: inherit/1.5;
+
+}
+
+main h1{
+    color: green;
+}
+
