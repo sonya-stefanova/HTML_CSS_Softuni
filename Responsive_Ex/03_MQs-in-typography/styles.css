@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+    padding:2em;
+}
+
+
+body {
+	background-color: rgb(238, 238, 238);
+}
+
+blockquote {
+	font-family: Georgia, serif;
+    font-style: italic;
+}
+
+a {
+	color: rgb(0, 153, 0);
+}
+
+p {
+	padding-bottom: 1.5em;
+}
+
+h2 {
+	font-family: Georgia, serif;
+	padding: 1.5em 0 1.5em 0 ;
+}
+
+h3 {
+	padding: 1em 0 1em 0 ;
+}
+
+ul {
+	margin-bottom: 1em;
+}
+
+blockquote {
+    color: gray;
+    float: right;
+    width: 50%;
+    border-left: 2px solid gray;
+    padding-left: 2em;
+}
+
+.page {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 70em;
+	margin: 2em auto;
+	gap: 2em 4em;
+}
+
+.page > header {
+	flex: 1 1 100%;
+	border-bottom: 2px solid black;
+	padding-bottom: 1em;
+    padding-top:3em;
+}
+
+.page > main {
+	flex: 1 1 65%;
+}
+
+.page > aside {
+	flex: 1 1 25%;
+}
+
+img[class*="align"] {
+	padding: 0.5em;
+	background-color: white;
+	border: 4px solid black;
+	box-shadow: 0 0 1em 0.2em black;
+}
+
+.align-right {
+	display: block;
+	margin: 0 0 1em 1em;
+	float: right;
+}
+
+.align-left {
+	display: block;
+	margin: 1em 1em 1em 0;
+	float: left;
+}
+
+.page > aside > ul > li {
+	list-style: inside;
+	padding-left: 1em;
+}
+
+.page > aside > ul > li > a {
+	text-decoration: none;
+}
+
+.author-name{
+    text-align: right;
+}
+
+section:nth-child(2) > p:nth-child(3) {
+    float: left;
+    width: 45%;
+}
+
+section:nth-child(2) > p:nth-child(5) {
+    display: inline-block;
+}
+
+/*
+Instructions for response design:
+Make the font size for screens larger than 600 16px
+Make the font size for screens larger than 800 18px
+Make the font size for screens larger than 1300 21px
+Make the font size for screens larger than 1800 23px */
+
+@media (width > 600px){
+	body {
+		font-size: 16px;
+	}
+}
+
+@media (width > 800px){
+	body {
+		font-size: 18px;
+	}
+}
+
+@media (width > 1300px){
+	body {
+		font-size: 21px;
+	}
+}
+
+@media (width > 1800px){
+	body {
+		font-size: 23px;
+	}
+}
+
+@media (width > 500px){
+	body {
+		font-size: 14px;
+	}
+}
