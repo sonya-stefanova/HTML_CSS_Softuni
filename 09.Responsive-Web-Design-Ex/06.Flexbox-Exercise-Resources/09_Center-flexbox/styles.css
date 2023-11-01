@@ -1,0 +1,33 @@
+*{
+    padding:0px;
+    margin:0px; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(238, 238, 238);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height: 100vh; 
+    font: 14px/1 Lucida, serif;    
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    padding:2em 2em 4em 2em;
+    border-radius:5px;
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.3); 
+    max-width:25vw;
+}
+
+div>h3{
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+
+
+}
+
+div p {
+    font-family: Lucida, sans-serif;
+}
