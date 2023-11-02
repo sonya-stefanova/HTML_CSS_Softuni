@@ -1,0 +1,21 @@
+nav ul{
+    display:flex;
+    gap:2em;
+    padding:1em;
+}
+
+nav li{
+    text-transform: uppercase;
+}
+nav li,
+nav a{
+    display:block;
+    text-decoration:none;
+    color:white;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color:blue;
+}

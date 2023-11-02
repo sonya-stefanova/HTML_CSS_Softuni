@@ -1,0 +1,205 @@
+/* body {
+    max-width: 1920px;
+    max-height: 100vh;
+} */
+
+body{
+    background-color: #010530;
+    background-repeat: no-repeat;
+    background-image: url(../images/background.jpg);
+    background-size: 1400;
+    /* background-position: center +22em; */
+    background-size: contain;
+}
+
+
+.container{
+    max-width:100em;
+    margin:0em auto;
+
+}
+
+.top-header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:1em;
+    max-width:110em;
+}
+
+
+
+.logo img{
+    display:block;
+    max-width:5em;
+    object-fit:cover;
+}
+
+.hero-content{
+    padding:5em 0em 10em 10em;
+    display:flex;
+    flex-direction:column;
+    gap:2em;
+    max-width:910px;    
+}
+
+.hero-content .container h1{
+    font-size:3.5em;
+    max-width:22ch;
+    font-family: "PT Serif";
+    color:white;
+    font-weight:normal;
+    margin-bottom:0.5em;
+}
+
+
+.hero-content .container p{
+    font: 1.2em/1.5 "PT Sans";
+    color:white;
+    font-weight:normal;
+    line-height:1.5;
+    max-width:75ch;
+    padding-bottom:2em;
+ }
+
+ .business-values .container{
+    display:flex;
+    gap: 8em;
+    justify-content: space-between;
+}
+
+
+.columns{
+    background-color:white;
+    padding:8em;
+    border: 1px solid #CCCCCC;
+    align-content: center;
+}
+
+.business-values article{
+    flex:1 1 40%;
+}
+
+.columns h2{
+    font: 3em/1.5 "PT Serif";
+    margin-bottom:0.5em;
+    
+}
+.columns article p{
+    font-family: "PT Serif";
+    font-size: 1em;
+    line-height: 2;
+    color:#716567;
+    margin-bottom:3em;
+}
+
+
+
+.business-values .button{
+    border:3px solid #B58965;
+    padding:0.7em 1em;
+}
+.business-values a{
+    display:inline-block;
+    color:#B58965;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.columns:nth-child(2) .container{
+    max-width:1100px;
+    display:flex;
+    flex-direction:column;
+    gap:2em;
+    text-align: center;
+    padding:0em;
+}
+
+
+.columns:nth-child(2){
+    padding:2em;
+}
+.columns:nth-child(2) h2{
+    color:#B58965;
+    margin-bottom:0em;
+}
+
+.columns:nth-child(2) p{
+    text-align:center;
+    line-height:2;
+    color:#716567;
+    font-size:1em;
+}
+
+.media-sponsors {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.media-sponsors img {
+    width: 10em;
+    height: auto; 
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    background: #DDDDDD; 
+    padding:1.5em;
+}
+
+
+
+footer{
+    background-color:black;
+}
+
+footer .container{
+    color:white;
+    display:flex;
+    justify-items:center;
+    gap:2em;
+}
+
+footer .container a{
+    text-decoration:none;
+    color:lightgray;
+    text-transform: uppercase;
+
+}
+
+footer .container h3{
+    font-size:1.3em;
+    font-family:"PT Serif";
+    font-weight:normal;
+}
+footer .container a:hover{
+    color:blue;
+    
+}
+.footer-mobile,
+.footer-address,
+.footer-status-policies,
+.footer-resources{
+    margin:3em;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction:column;
+    color:white;
+    line-height:2;
+}
+
+
+.footer-address{
+    flex:1 1 18%;
+}
+
+.footer-copyright{
+    color:lightgray;
+    border-top:1px solid #716567;
+    padding:1em;
+    padding-left:8em;
+
+}
